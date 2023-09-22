@@ -24,11 +24,11 @@ export const Counter = () => {
       <section className={style.counterButton}>
         <div className={style.counter}>
           <div className={style.minus} onClick={minusCounter}>
-            <img src='./src/assets/images/icon-minus.svg' alt="" />
+            <img src='icon-minus.svg' alt="" />
           </div>
           <p className={style.number}>{stateCounter}</p>
           <div className={style.plus} onClick={plusCounter}>
-            <img src='./src/assets/images/icon-plus.svg' alt="" />
+            <img src='icon-plus.svg' alt="" />
           </div>
         </div>
 
@@ -36,7 +36,7 @@ export const Counter = () => {
           className={style.button}
           onClick={onHandleClick}>
           <div className={style.containerButton}>
-            <img src='./src/assets/images/icon-cart-button.svg' alt="" />
+            <img src='icon-cart-button.svg' alt="" />
             <p>Add to cart</p>
           </div>
         </button>

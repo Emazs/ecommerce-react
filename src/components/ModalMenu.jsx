@@ -10,7 +10,7 @@ export const ModalMenu = ({state}) => {
     <>
       <section className={style.containerModal}>
         <section className={style.nav}>
-          <img src='./src/assets/images/icon-close.svg' alt="" onClick={onCloseMenu}/>
+          <img src='icon-close.svg' alt="" onClick={onCloseMenu}/>
           <section className={style.navContent}>
             <a href="#">Collections</a>
             <a href="#">Men</a>

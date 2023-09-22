@@ -13,7 +13,7 @@ export const ModalGallery = ({ state }) => {
   return (
     <div className={style.containerModal}>
       <section className={style.closeModal}>
-        <img src='./src/assets/images/icon-close.svg' alt="" className={style.imageClose} onClick={onCloseModal} />
+        <img src='icon-close.svg' alt="" className={style.imageClose} onClick={onCloseModal} />
       </section>
 
       <section className={style.passImage}>

@@ -21,8 +21,8 @@ export const Nav = ({state}) => {
     <>
       <section className={style.navOption}>
         <section className={style.option}>
-          <img src='./src/assets/images/icon-menu.svg' alt="" className={style.menuOptions} onClick={onMenuActivate}/>
-          <img src='./src/assets/images/logo.svg' alt="Icono de la marca Sneakers" className={style.logo} />
+          <img src='icon-menu.svg' alt="" className={style.menuOptions} onClick={onMenuActivate}/>
+          <img src='logo.svg' alt="Icono de la marca Sneakers" className={style.logo} />
           <a href="#">Collections</a>
           <a href="#">Men</a>
           <a href="#">Women</a>
@@ -33,8 +33,8 @@ export const Nav = ({state}) => {
         {stateCart == true && <SoldProduct />}
 
         <section className={style.user}>
-          <a href="#">{products != 0 && <span className={style.totalProducts}>{products}</span>}<img src='./src/assets/images/icon-cart.svg' alt="Imagen del carrito de compra" onClick={onActivateCart} /></a>
-          <a href="#"><img src='./src/assets/images/image-avatar.png' alt="Imagen de usuario" className={style.avatar} /></a>
+          <a href="#">{products != 0 && <span className={style.totalProducts}>{products}</span>}<img src='icon-cart.svg' alt="Imagen del carrito de compra" onClick={onActivateCart} /></a>
+          <a href="#"><img src='image-avatar.png' alt="Imagen de usuario" className={style.avatar} /></a>
         </section>
       </section>
     </>

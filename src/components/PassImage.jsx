@@ -14,8 +14,8 @@ export const PassImage = () => {
   }
   return (
     <>
-      <div className={style.contentImage} onClick={onHandPrevious}><img src='./src/assets/images/icon-previous.svg' alt="" /></div>
-      <div className={style.contentImage} onClick={onHandNext}><img src='./src/assets/images/icon-next.svg' alt="" /></div>
+      <div className={style.contentImage} onClick={onHandPrevious}><img src='icon-previous.svg' alt="" /></div>
+      <div className={style.contentImage} onClick={onHandNext}><img src='icon-next.svg' alt="" /></div>
     </>
   )
 }

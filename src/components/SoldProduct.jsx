@@ -20,7 +20,7 @@ export const SoldProduct = () => {
         <div className={style.content}>
           {products == 0 ? <p>Your cart is empty.</p> : <section className={style.contentCard}>
             <div className={style.card}>
-              <img src='./src/assets/images/image-product-1-thumbnail.jpg' alt="" className={style.cardThumbnail}/>
+              <img src='image-product-1-thumbnail.jpg' alt="" className={style.cardThumbnail}/>
               <div className={style.cardInformation}>
                 <p>Fall Limited Edition Sneakers</p>
                 <div className={style.cardPrice}>
@@ -28,7 +28,7 @@ export const SoldProduct = () => {
                   <span>${125 * products}.00</span>
                 </div>
               </div>
-              <img src='./src/assets/images/icon-delete.svg' alt="imagen de eliminar item" onClick={onHandClick} className={style.imageDelete}/>
+              <img src='icon-delete.svg' alt="imagen de eliminar item" onClick={onHandClick} className={style.imageDelete}/>
             </div>
             <button className={style.button}>Checkout</button>
           </section>}
